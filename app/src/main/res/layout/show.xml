@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:background="#FF9F6464"
+	android:layout_gravity="bottom">
+
+	<myAi.Knowanything.windows.WarpLinearLayout
+		android:id="@+id/showFixGridLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		app:grivate="center"
+		app:horizontal_Space="10dp"
+		app:isFull="false"
+		app:vertical_Space="10dp">
+
+	</myAi.Knowanything.windows.WarpLinearLayout>
+
+</LinearLayout>
+
